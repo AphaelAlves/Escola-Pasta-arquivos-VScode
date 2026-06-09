@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TELA PROFESSORES - 01 - INICIAL</title>
+    <link rel="stylesheet" href="./TP-01-inicial.CSS">
+    <link rel="shortcut icon" href="./imgs/capelo.png" type="image/x-icon">
+</head>
+
+
+
+
+<body>
+    
+    <div id="abaLateral" class="abaLateral">
+        <a href="#"> 👤perfil aq </a>
+        <a href="#">⚙️Configurações</a>
+        <a href="#">☀️Temas</a>
+        <a href="#">🔔Notificações</a>
+        <a href="./T01-L.html"> 📤 Sair </a>
+    </div>
+    
+    
+    
+    
+    
+    <nav class="navcima">
+        <div id="elementosInciais">
+            <button type="button" class="btn1"> <img src="./imgs/TELAS PCC (1).png" alt="trespts" class="trespts"> </button>
+            
+            <img src="./imgs/ARCO.png" alt="logoArco" class="logoImg">
+            
+            <input class="peskiza" type="text" placeholder="🔍Pesquisar">
+        </div>
+        
+        <div id="elementosFinais">
+            <div class="dropdown">
+                <button class="btndropdown"> filtro </button>
+                
+                <div class="conteudo">
+                    <a href="#">Turmas</a>
+                    <a href="#">Aluno</a>
+                    <a href="#">Relatórios Pendentes</a>
+                </div>
+                
+            </div>
+        </div>
+    </nav>
+    <nav class="navbaixo">
+        
+        <div class="div01"><h1>3º TDS A</h1></div>
+
+        <div class="div02"><h1>3º TDS B</h1></div>
+        
+        <div class="div03"><h1>3º MKT A</h1></div>
+        
+        <div class="div04"><h1>3º MKT B</h1></div>
+        
+        <div class="div05"><h1>2º MKT A</h1></div>
+        
+        <div class="div06"><h1>2º MKT B</h1></div>
+        
+    </nav>
+
+
+ <!-- ---------------------------------------------------------------------------- -->
+    <script>
+        
+        const botao = document.querySelector(".btn1");
+        const abaLateral = document.querySelector("#abaLateral");
+    
+        botao.addEventListener("click", (evento) => {
+            evento.stopPropagation();
+            abaLateral.classList.toggle("ativa");
+        });
+
+        abaLateral.addEventListener("click", (evento) =>{
+            evento.stopPropagation();
+        });
+
+        document.addEventListener("click", () =>{
+            abaLateral.classList.remove("ativa");
+        });
+    
+    </script>
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+</body>
+
+
+
+</html>
