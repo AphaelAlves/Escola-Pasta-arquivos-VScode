@@ -111,14 +111,14 @@ h1{
 
 .div01{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 90px;
+    margin-left: 100px;
     
     
     background-image: linear-gradient(90deg, #044ceb, #001f64);
@@ -127,13 +127,13 @@ h1{
 
 .div02{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 50px;
     
     
@@ -143,13 +143,13 @@ h1{
 
 .div03{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 50px;
     
     
@@ -159,14 +159,14 @@ h1{
 
 .div04{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
     
     
     background-image: linear-gradient(90deg, #ff3131, #9600ff);
@@ -175,13 +175,13 @@ h1{
 
 .div05{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     
     
@@ -191,13 +191,13 @@ h1{
 
 .div06{
    
-    height: 160px;
+    height: 190px;
     width: 400px;
     border-radius: 19px;
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     
     
@@ -205,7 +205,14 @@ h1{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+.btnT{
+    color: white;
+    background-color: transparent;
+    border: none;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
 
 
 
