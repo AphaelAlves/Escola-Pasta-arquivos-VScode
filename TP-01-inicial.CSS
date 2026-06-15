@@ -26,6 +26,7 @@ body {
 
 .abaLateral a{
     color: black;
+    font-size: 30px;
     text-decoration:none ;
     padding: 15px 20px;
 }
@@ -118,6 +119,7 @@ h1{
 
 #MT{
     margin-left:100px;
+    font-size: 50px;
 
 }
 
