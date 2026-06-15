@@ -103,6 +103,25 @@ h1{
     font-family: sans-serif;
 }
 
+
+.divF{
+
+    display: flex;
+    flex-direction: row;
+   
+   
+    background-color: purple;
+    width: 100%;
+    height: 10dvh;
+
+}
+
+
+
+
+
+
+
 .div01{
    
     height: 190px;
@@ -111,7 +130,7 @@ h1{
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 90px;
+    margin-top: 10px;
     margin-left: 100px;
     
     
@@ -127,7 +146,7 @@ h1{
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 90px;
+    margin-top: 10px;
     margin-left: 50px;
     
     
@@ -143,7 +162,7 @@ h1{
     border:solid, 2px;
     border-color: black;
     color:white;
-    margin-top: 90px;
+    margin-top: 10px;
     margin-left: 50px;
     
     
@@ -236,9 +255,9 @@ h1{
 .btndropdown{
     border: none;
     cursor: pointer;
-    color: white;
+    color: black;
     background-color:transparent;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 30px;
 }
 .conteudo{
@@ -246,7 +265,7 @@ h1{
     position: absolute;
     right: 10px;
     
-    top: 7%;
+    top: 17%;
     background-color: white;
     border-radius: 10px;
     min-width: 160px;
