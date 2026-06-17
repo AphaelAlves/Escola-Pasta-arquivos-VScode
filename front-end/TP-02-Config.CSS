@@ -62,3 +62,18 @@ body{
     font-size: 30px;
     
 }
+
+#lateralDir{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: rgb(172, 0, 172);
+
+
+}
+
+#pesquiza{
+    height: 20px;
+    width: 300px;
+
+}
