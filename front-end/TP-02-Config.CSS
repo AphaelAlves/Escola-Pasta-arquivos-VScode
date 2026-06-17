@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: white;
+}
+
+#navcima{
+    height: 10dvh;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(90deg, #044ceb, #001f64);
+}
+
+#navbaixo{
+    height: 90dvh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+}
+
+#elementosiniciais{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+}
+
+#elementosfinais{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+#logoImg{
+    height: 100%;
+}
+
+#btnSair{
+    height: 90%;
+    width: 100px;
+    margin-left: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-family: 'michroma',sans-serif;
+    font-size: 17px;
+}
+
+#abaL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 450px;
+    background-color: purple;
+    box-shadow: 5px 0px 3px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-family: 'michroma',sans-serif;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
