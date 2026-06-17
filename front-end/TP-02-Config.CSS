@@ -51,25 +51,31 @@ body{
 #abaL{
     display: flex;
     flex-direction: column;
-    align-items: center;
     height: 100%;
-    width: 450px;
+    width: 300px;
     background-color: purple;
-    box-shadow: 5px 0px 3px rgba(0, 0, 0, 0.2);
-    color: black;
-    font-family: 'michroma',sans-serif;
-    text-decoration: none;
-    font-size: 30px;
     
 }
 
+#abaL a{
+    color: black;
+    font-family: 'michroma',sans-serif;
+    text-decoration: none;
+    
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
 
+#abaL a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
 
 #lateralDir{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
-    background-color: rgb(172, 0, 172);
+    background-color: pink;
 
 
 }
@@ -83,3 +89,11 @@ body{
     background-color: transparent;
 
 }
+
+#PR{
+    margin-left: 200px ;
+}
+#Nconfig{
+    margin-left: 10px;
+}
+
